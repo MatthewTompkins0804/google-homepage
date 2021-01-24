@@ -12,6 +12,7 @@ li, a, button {
 }
 
 header {
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -24,7 +25,7 @@ header {
 
 .nav_links li {
     display: inline-block;
-    padding: 0px 15px;
+    padding: 0px 15px 0px 0px;
 }
 
 .nav_links li a {
@@ -36,15 +37,26 @@ header {
     text-decoration: underline;
 }
 
-/*button {
+.appmenu {
+    opacity: 0.50;
+    padding: 0px 24px 0px 9px;
+    transition: all 0s 0s;
+}
+
+.appmenu:hover {
+    opacity: 1;
+}
+
+.signin {
     display: inline-block;
-    padding: 0px 12px 12px 0px;
+    padding: 0px 12px;
     background-color: #FFFFFF;
     background-image: -moz-linear-gradient(rgb(67,135,253), rgb(70,131,234));
-    border-color: rgb(66,133,244);
+    border: 1px solid #4285f4;
     border-radius: 2px;
     color: #FFFFFF;
-    font-weight: 700;
+    font-weight: bold;
     outline-color: #FFFFFF;
-}*/
+    line-height: 28px;
+}
 
