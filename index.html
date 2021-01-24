@@ -1,54 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <style>
-            .nav {
-                background-color: #FFFFFF;
-                list-style-type: none;
-                text-align: left;
-                margin: 0;
-                padding: 0;
-            }
-
-            li {
-                display: inline-block;
-                font-size: 13px;
-                padding: 15px;
-            }
-
-            a {
-                color: rgba(0,0,0,0.75);
-                text-decoration: none;
-            }
-
-            #rightside {
-                display: flex 1 1 auto;
-                justify-content: flex-end;
-                float: right;
-                align-items: center;
-                padding-left: 30px;
-                padding-right: 30px;
-            }
-
-            body {
-                font-family: Arial, sans-serif;
-                background-color: #FFFFFF;
-                color: #202124;
-            }
-        </style>
+        <title>Google</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
         <header>
-           <ul class="nav">
-               <li><a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a></li>
-               <li><a href="https://store.google.com/US/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a></li>
-               <div id="rightside">
-               <li><a href="https://mail.google.com/mail/u/0/?ogbl#inbox">Gmail</a></li>
-               <li><a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a></li>
-               <li><a href="#"><img src="file:///home/matthewtompkins/Odin/google-homepage/apps-24px.svg"></a></li>
-               </div>
-           </ul>
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                </ul>
+            </nav>
+            <img class="appmenu" src="images/apps-24px.svg">
+            <a class="signin" href="#"><button>Sign In</button></a>
         </header>
     </body>
 </html>
