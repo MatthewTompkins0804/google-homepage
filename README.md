@@ -1,0 +1,1 @@
+This project is an assignment from The Odin Project to recreate the Google homepage. It has taught me how to delve into the FireFox developer tools to recreate a website from scratch, as well as how to look up things I don't know how to do in the most efficient manner possible.
