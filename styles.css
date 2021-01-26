@@ -62,7 +62,7 @@ header .nav_links li a:hover {
 
 .logo {
     display: block;
-    margin: 15% auto 24px auto;
+    margin: 109px auto 24px auto;
 }
 
 .searchcont {
@@ -72,8 +72,13 @@ header .nav_links li a:hover {
     width: auto;
     max-width: 484px;
     display: flex;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
     border-radius: 40px;
+    border: 1px solid #dadce0;
+    transition: 0s 0s all;
+}
+
+.searchcont:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.15);
 }
 
 .searchicon {
